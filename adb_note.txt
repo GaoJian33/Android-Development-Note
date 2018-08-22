@@ -1,0 +1,39 @@
+# install adb 
+	
+# check the devices 
+	adb devices
+
+# install apk
+	adb install apkfile 
+
+# 
+adb -s [device id] uninstall 
+
+adb -s [device id] install xxx.apk
+
+# 覆盖安装apk  
+adb -s [device id] install -r -d xxx.apk
+	reinstall the app
+
+adb shell dumpsys windows | findstr Focus
+	you can see the active is in which file
+
+adb shell am start -c api.android.intent.Launcher -a api.android.category.MAIN -n
+
+adb logcat -d  
+
+adb logcat > log.txt 
+	write the log into a file
+
+notepad log.txt
+	show the log.txt
+
+
+adb shell screen cap /sdcard/Android/sceenshot.png
+
+adb shell rm file.name
+
+
+adb push log.txt path 
+
+

@@ -1,0 +1,20 @@
+linux cmd
+
+
+# trans a file 
+	scp file user@ip:path  
+
+
+git ：
+
+#	download the git repository
+	git clone https://github.com/GaoJian33/iot.git
+
+	git status
+
+	git add file.name 
+			-A
+
+	git commit -m “add index.html”
+
+	git push  
