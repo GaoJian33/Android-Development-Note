@@ -8,6 +8,7 @@ linux cmd
 git ：
 
 #	download the git repository
+
 	git clone https://github.com/GaoJian33/iot.git
 
 	git status
@@ -17,4 +18,9 @@ git ：
 
 	git commit -m “add index.html”
 
-	git push  
+	git push origin master 
+
+	git pull origin master
+
+
+	git checkout . 可以回退工作区到上次的commit版本
